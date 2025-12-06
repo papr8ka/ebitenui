@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/papr8ka/ebitenui/widget"
 )
 
 func NewTextInputTab() *widget.TabBookTab {

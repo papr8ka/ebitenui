@@ -1,7 +1,7 @@
 package tabs
 
 import (
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/papr8ka/ebitenui/widget"
 )
 
 func NewButtonTab() *widget.TabBookTab {

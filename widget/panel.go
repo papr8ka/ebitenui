@@ -1,7 +1,7 @@
 package widget
 
 import (
-	"github.com/ebitenui/ebitenui/image"
+	"github.com/papr8ka/ebitenui/image"
 )
 
 type PanelParams struct {

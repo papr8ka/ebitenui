@@ -9,13 +9,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/internal/jsUtil"
-	"github.com/ebitenui/ebitenui/utilities/mobile"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/papr8ka/ebitenui/event"
+	"github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/input"
+	"github.com/papr8ka/ebitenui/internal/jsUtil"
+	"github.com/papr8ka/ebitenui/utilities/mobile"
 )
 
 type TextInputParams struct {

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/widget"
 
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"

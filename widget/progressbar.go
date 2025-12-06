@@ -3,7 +3,7 @@ package widget
 import (
 	img "image"
 
-	"github.com/ebitenui/ebitenui/image"
+	"github.com/papr8ka/ebitenui/image"
 
 	"github.com/hajimehoshi/ebiten/v2"
 )

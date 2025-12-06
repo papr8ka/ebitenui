@@ -9,10 +9,10 @@ import (
 	goimage "image"
 	"image/color"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/papr8ka/ebitenui"
+	"github.com/papr8ka/ebitenui/event"
+	"github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/widget"
 	"golang.org/x/image/colornames"
 )
 

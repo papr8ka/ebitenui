@@ -1,4 +1,4 @@
-module github.com/ebitenui/ebitenui
+module github.com/papr8ka/ebitenui
 
 go 1.23.0
 
@@ -6,7 +6,7 @@ require (
 	github.com/hajimehoshi/ebiten/v2 v2.8.6
 	github.com/matryer/is v1.4.1
 	github.com/stretchr/testify v1.10.0
-	golang.org/x/image v0.25.0 // indirect
+	golang.org/x/image v0.25.0
 	golang.org/x/sys v0.31.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )
@@ -28,11 +28,9 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
+require github.com/frustra/bbcode v0.0.0-20201127003707-6ef347fbe1c8
+
 require (
-	github.com/frustra/bbcode v0.0.0-20201127003707-6ef347fbe1c8 // indirect
 	github.com/go-text/typesetting v0.3.0 // indirect
-	golang.design/x/clipboard v0.7.0 // indirect
-	golang.org/x/exp/shiny v0.0.0-20250305212735-054e65f0b394 // indirect
-	golang.org/x/mobile v0.0.0-20231127183840-76ac6878050a // indirect
 	golang.org/x/text v0.23.0 // indirect
 )

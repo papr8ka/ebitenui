@@ -12,14 +12,14 @@ import (
 	"sync"
 	"syscall/js"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/internal/jsUtil"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/papr8ka/ebitenui"
+	"github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/input"
+	"github.com/papr8ka/ebitenui/internal/jsUtil"
+	"github.com/papr8ka/ebitenui/widget"
 	"golang.org/x/image/font/gofont/goregular"
 )
 

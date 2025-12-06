@@ -3,7 +3,7 @@ package tabs
 import (
 	"fmt"
 
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/papr8ka/ebitenui/widget"
 )
 
 func NewCheckboxTab() *widget.TabBookTab {

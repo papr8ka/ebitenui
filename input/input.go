@@ -3,8 +3,8 @@ package input
 import (
 	"image"
 
-	internalinput "github.com/ebitenui/ebitenui/internal/input"
 	"github.com/hajimehoshi/ebiten/v2"
+	internalinput "github.com/papr8ka/ebitenui/internal/input"
 )
 
 type CursorUpdater interface {

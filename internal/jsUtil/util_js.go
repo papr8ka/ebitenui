@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"syscall/js"
 
-	"github.com/ebitenui/ebitenui/utilities/mobile"
+	"github.com/papr8ka/ebitenui/utilities/mobile"
 )
 
 var MOBILE_BROWSER_REGEX = regexp.MustCompile("(?i)Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone")

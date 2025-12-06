@@ -8,13 +8,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/utilities/colorutil"
-	"github.com/ebitenui/ebitenui/utilities/datastructures"
 	"github.com/frustra/bbcode"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/papr8ka/ebitenui/event"
+	"github.com/papr8ka/ebitenui/input"
+	"github.com/papr8ka/ebitenui/utilities/colorutil"
+	"github.com/papr8ka/ebitenui/utilities/datastructures"
 )
 
 var bbcodeRegex = regexp.MustCompile(`\[color=#[0-9a-fA-F]{6}]|\[\/color]|\[link]|\[\/link]|\[link=[^\]]*]`)

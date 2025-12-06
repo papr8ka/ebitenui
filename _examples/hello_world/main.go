@@ -7,10 +7,10 @@ import (
 
 	"golang.org/x/image/font/gofont/goregular"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/papr8ka/ebitenui"
+	"github.com/papr8ka/ebitenui/widget"
 )
 
 type game struct {

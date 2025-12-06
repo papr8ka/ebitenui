@@ -3,8 +3,8 @@ package widget
 import (
 	"testing"
 
-	"github.com/ebitenui/ebitenui/event"
 	"github.com/matryer/is"
+	"github.com/papr8ka/ebitenui/event"
 )
 
 func TestRadioGroup_Active_Initial(t *testing.T) {

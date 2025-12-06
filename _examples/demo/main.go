@@ -14,10 +14,10 @@ import (
 	"image/color"
 	_ "image/png"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/papr8ka/ebitenui"
+	"github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/input"
+	"github.com/papr8ka/ebitenui/widget"
 )
 
 type game struct {
@@ -94,7 +94,7 @@ func createUI() (*ebitenui.UI, error) {
 	rootContainer.AddChild(footerContainer)
 
 	footerContainer.AddChild(widget.NewText(
-		widget.TextOpts.Text("github.com/ebitenui/ebitenui", res.text.smallFace, res.text.disabledColor)))
+		widget.TextOpts.Text("github.com/papr8ka/ebitenui", res.text.smallFace, res.text.disabledColor)))
 
 	ui = &ebitenui.UI{
 		Container: rootContainer,

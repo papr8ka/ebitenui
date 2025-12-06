@@ -7,11 +7,11 @@
   </a>
   <h1>Ebiten UI</h1>
 
-[![Release](https://img.shields.io/github/v/release/ebitenui/ebitenui?style=for-the-badge&logo=github&labelColor=%23202e3bff&color=%235a7d93ff%20)](https://github.com/ebitenui/ebitenui/releases)
+[![Release](https://img.shields.io/github/v/release/ebitenui/ebitenui?style=for-the-badge&logo=github&labelColor=%23202e3bff&color=%235a7d93ff%20)](https://github.com/papr8ka/ebitenui/releases)
 [![License](https://img.shields.io/github/license/ebitenui/ebitenui?style=for-the-badge&logo=github&labelColor=%23202e3bff&color=%235a7d93ff%20)](https://opensource.org/licenses/MIT)
-[![Github](https://img.shields.io/badge/code-5a7d93ff?style=for-the-badge&logo=github&label=github&labelColor=%23202e3bff&color=%235a7d93ff)](https://github.com/ebitenui/ebitenui)
+[![Github](https://img.shields.io/badge/code-5a7d93ff?style=for-the-badge&logo=github&label=github&labelColor=%23202e3bff&color=%235a7d93ff)](https://github.com/papr8ka/ebitenui)
 [![Docs](https://img.shields.io/badge/ebitenui.github.io-5a7d93ff?style=for-the-badge&logo=go&logoColor=white&label=docs&labelColor=%23202e3bff&color=%235a7d93ff)](https://ebitenui.github.io)
-[![Docs](https://img.shields.io/badge/godoc-5a7d93ff?style=for-the-badge&logo=go&logoColor=white&label=docs&labelColor=%23202e3bff&color=%235a7d93ff)](https://pkg.go.dev/github.com/ebitenui/ebitenui)
+[![Docs](https://img.shields.io/badge/godoc-5a7d93ff?style=for-the-badge&logo=go&logoColor=white&label=docs&labelColor=%23202e3bff&color=%235a7d93ff)](https://pkg.go.dev/github.com/papr8ka/ebitenui)
 [![Discord](https://img.shields.io/discord/958140778931175424?style=for-the-badge&labelColor=%23202e3bff&color=%235a7d93ff%20&label=Discord&logo=discord&logoColor=white)](https://discord.gg/ujEeeHgptU)
 [![Subreddit](https://img.shields.io/reddit/subreddit-subscribers/birdmtndev?style=for-the-badge&logo=reddit&logoColor=white&label=r%2Fbirdmtndev&labelColor=%23202e3bff&color=%235a7d93ff&cacheSeconds=120)](https://www.reddit.com/r/birdmtndev)
 </div>
@@ -36,8 +36,8 @@ Ebiten UI is written in Go 1.19 which is available at [https://go.dev/](https://
 There are Ebiten UI examples that can be found in the `_examples/` folder. 
 
 They can be run from the root directory of the project with the following commands:
-* Ebiten UI complete demo: `go run github.com/ebitenui/ebitenui/_examples/demo`
-* Ebiten UI widget: `go run github.com/ebitenui/ebitenui/_examples/widget_demos/<folder_name>`
+* Ebiten UI complete demo: `go run github.com/papr8ka/ebitenui/_examples/demo`
+* Ebiten UI widget: `go run github.com/papr8ka/ebitenui/_examples/widget_demos/<folder_name>`
 
 The examples can also be tested as WASM by running the following commands and opening your browser to [http://localhost:6262](http://localhost:6262):
 * Ebiten UI complete demo: `go run github.com/hajimehoshi/wasmserve@latest -http=:6262 ./_examples/demo`
@@ -72,4 +72,4 @@ Maintainers
 
 Contributing
 -------
-Want to help develop Ebiten UI? Check out our [current issues](https://github.com/ebitenui/ebitenui/issues). Want to know the steps on how to start contributing, take a look at the [open source guide](https://opensource.guide/how-to-contribute/).
+Want to help develop Ebiten UI? Check out our [current issues](https://github.com/papr8ka/ebitenui/issues). Want to know the steps on how to start contributing, take a look at the [open source guide](https://opensource.guide/how-to-contribute/).

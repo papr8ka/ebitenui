@@ -4,8 +4,8 @@ import (
 	"image"
 	"runtime"
 
-	"github.com/ebitenui/ebitenui/internal/jsUtil"
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/papr8ka/ebitenui/internal/jsUtil"
 )
 
 type DefaultInternalHandler struct {

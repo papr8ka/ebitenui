@@ -6,12 +6,12 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/ebitenui/ebitenui"
-	e_image "github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/papr8ka/ebitenui"
+	e_image "github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/widget"
 	"golang.org/x/image/font/gofont/goregular"
 )
 

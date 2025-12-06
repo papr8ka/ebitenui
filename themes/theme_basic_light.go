@@ -4,11 +4,11 @@ import (
 	img "image"
 	"image/color"
 
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/utilities/constantutil"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/vector"
+	"github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/utilities/constantutil"
+	"github.com/papr8ka/ebitenui/widget"
 )
 
 func getLightCheckbox() *widget.CheckboxImage {

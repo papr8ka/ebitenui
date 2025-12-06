@@ -7,13 +7,13 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/ebitenui/ebitenui"
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/utilities/constantutil"
-	"github.com/ebitenui/ebitenui/widget"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/papr8ka/ebitenui"
+	"github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/utilities/constantutil"
+	"github.com/papr8ka/ebitenui/widget"
 	"golang.org/x/image/font/gofont/goregular"
 )
 

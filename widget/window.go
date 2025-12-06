@@ -3,9 +3,9 @@ package widget
 import (
 	"image"
 
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/input"
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/papr8ka/ebitenui/event"
+	"github.com/papr8ka/ebitenui/input"
 )
 
 type WindowCloseMode int

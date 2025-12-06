@@ -3,10 +3,10 @@ package widget
 import (
 	"image"
 
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/input"
-	internalinput "github.com/ebitenui/ebitenui/internal/input"
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/papr8ka/ebitenui/event"
+	"github.com/papr8ka/ebitenui/input"
+	internalinput "github.com/papr8ka/ebitenui/internal/input"
 )
 
 // A Widget is an abstraction of a user interface widget, such as a button. Actual widget implementations

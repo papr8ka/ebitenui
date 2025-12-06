@@ -3,8 +3,8 @@ package tabs
 import (
 	"image/color"
 
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/widget"
+	"github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/widget"
 )
 
 func NewProgressBarTab() *widget.TabBookTab {

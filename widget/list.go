@@ -5,10 +5,10 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/ebitenui/ebitenui/event"
-	"github.com/ebitenui/ebitenui/image"
-	"github.com/ebitenui/ebitenui/input"
-	"github.com/ebitenui/ebitenui/utilities/constantutil"
+	"github.com/papr8ka/ebitenui/event"
+	"github.com/papr8ka/ebitenui/image"
+	"github.com/papr8ka/ebitenui/input"
+	"github.com/papr8ka/ebitenui/utilities/constantutil"
 
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
