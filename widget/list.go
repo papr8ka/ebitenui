@@ -453,9 +453,9 @@ func (l *List) Render(screen *ebiten.Image) {
 	}
 	l.scrollContainer.GetWidget().Disabled = d
 
-	if l.focusIndex != l.prevFocusIndex && l.focusIndex >= 0 && l.focusIndex < len(l.buttons) {
-		l.scrollVisible(l.buttons[l.focusIndex])
-	}
+	//if l.focusIndex != l.prevFocusIndex && l.focusIndex >= 0 && l.focusIndex < len(l.buttons) {
+	//	l.scrollVisible(l.buttons[l.focusIndex])
+	//}
 
 	if *l.computedParams.SelectFocus {
 		l.SelectFocused()
